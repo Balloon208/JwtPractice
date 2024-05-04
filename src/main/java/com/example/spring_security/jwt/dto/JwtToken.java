@@ -1,4 +1,4 @@
-package com.example.spring_security.jwt.Dto;
+package com.example.spring_security.jwt.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

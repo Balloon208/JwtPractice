@@ -1,6 +1,6 @@
 package com.example.spring_security.jwt;
 
-import com.example.spring_security.jwt.Dto.JwtToken;
+import com.example.spring_security.jwt.dto.JwtToken;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
