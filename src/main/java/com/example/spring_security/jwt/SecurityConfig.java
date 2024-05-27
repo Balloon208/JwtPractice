@@ -52,7 +52,7 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests((authorizeHttpRequestConfig)->
                         authorizeHttpRequestConfig
-                                .requestMatchers("/members/sign-in").permitAll()
+                                .requestMatchers("/members/login").permitAll()
                                 .requestMatchers("/members/test").hasRole("USER")
                                 .anyRequest().authenticated()
                 )
